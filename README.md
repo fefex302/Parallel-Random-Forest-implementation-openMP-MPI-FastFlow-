@@ -1,0 +1,2 @@
+A parallel and distributed implementation of the Random Forest algorithm exploiting multi-threading for shared memory with openMP and FastFlow, as well as distributed memory with MPI.
+The implementation explores multiple approaches in the prediction phase, such as parallelism on the trees or on the data, while the parallelism in the training phase is fixed to the trees (each thread trains a independent tree).
